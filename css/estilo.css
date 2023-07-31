@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body {
+    background-color: rgba(232, 248, 0, 0.452);
+    font-family: 'Indie Flower', cursive;
+}
+
+.logo {
+    width: 120px;
+}
+
+header {
+    background-color: rgb(255, 251, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.inicio {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
+
+a {
+    text-decoration: none
+}
+
+.navegacion li {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #f1be15b7;
+    border-radius: 10px;
+}
+
+.navegacion li :hover {
+    background-color: #dddada83;
+    border-radius: 100px
+}
+
+.tituloPages {
+    background-image: url(../img/hilos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+    font-size: 40px;
+    color: #fafaf4;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.navegacionletra {
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    background-color: #dddd5388;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: inherit;
+}
+
+.tituloh3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.trabajos {
+    display: flex;
+    justify-content: center;
+}
+
+.imagenTrabajo {
+    width: 315px;
+    height: 315px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: rgb(24, 21, 21);
+
+}
+
+.contacto {
+    font-size: 15px;
+    color: #fafaf4;
+    margin-left: 10px;
+}
+
+.derechos {
+    font-size: 10px;
+    color: #fafaf4;
+    text-align: center;
+}
+
+.parrafoNosotros {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    margin-left: 250px;
+}
+
+.videonosotros {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.contact-container {
+    display: inline-block;
+    padding: 10px 20px;
+
+}
+
+.contact-container img {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.contact-info {
+    font-size: 15px;
+}
+
